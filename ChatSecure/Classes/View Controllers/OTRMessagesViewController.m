@@ -17,7 +17,7 @@
 #import "OTRMessage+JSQMessageData.h"
 #import "JSQMessages.h"
 #import "OTRProtocolManager.h"
-#import "OTRXMPPTorAccount.h"
+//#import "OTRXMPPTorAccount.h"
 #import "OTRXMPPManager.h"
 #import "OTRLockButton.h"
 #import "OTRButtonView.h"
@@ -818,14 +818,10 @@ typedef NS_ENUM(int, OTRDropDownType) {
         cell.textView.textColor = textColor;
 
 	// Do not allow clickable links for Tor accounts to prevent information leakage
-    if ([self.account isKindOfClass:[OTRXMPPTorAccount class]]) {
-        cell.textView.dataDetectorTypes = UIDataDetectorTypeNone;
-    }
-    else {
+ 
         cell.textView.dataDetectorTypes = UIDataDetectorTypeLink;
         cell.textView.linkTextAttributes = @{ NSForegroundColorAttributeName : textColor,
                                               NSUnderlineStyleAttributeName : @(NSUnderlineStyleSingle | NSUnderlinePatternSolid) };
-    }
     
     if ([[message messageMediaItemKey] isEqualToString:self.audioPlaybackController.currentAudioItem.uniqueId]) {
         UIView *view = [cell.mediaView viewWithTag:kOTRAudioControlsViewTag];

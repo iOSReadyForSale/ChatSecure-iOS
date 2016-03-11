@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CPAProxy.h"
+//#import "CPAProxy.h"
+@interface CPAProxyManager : NSObject
 
+@end
 @interface OTRTorManager : NSObject
 
 @property (nonatomic, strong) CPAProxyManager *torManager;

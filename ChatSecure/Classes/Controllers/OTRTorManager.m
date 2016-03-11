@@ -20,10 +20,10 @@
         NSString *dataDirectory = [[[[[NSFileManager defaultManager] URLsForDirectory:NSApplicationSupportDirectory inDomains:NSUserDomainMask] lastObject] URLByAppendingPathComponent:@"com.ChatSecure.Tor"] path];
         
         // Initialize a CPAProxyManager
-        CPAConfiguration *configuration = [CPAConfiguration configurationWithTorrcPath:torrcPath geoipPath:geoipPath torDataDirectoryPath:dataDirectory];
-        configuration.isolateDestinationAddress = YES;
-        configuration.isolateDestinationPort = YES;
-        self.torManager = [CPAProxyManager proxyWithConfiguration:configuration];
+//        CPAConfiguration *configuration = [CPAConfiguration configurationWithTorrcPath:torrcPath geoipPath:geoipPath torDataDirectoryPath:dataDirectory];
+//        configuration.isolateDestinationAddress = YES;
+//        configuration.isolateDestinationPort = YES;
+//        self.torManager = [CPAProxyManager proxyWithConfiguration:configuration];
     }
     return self;
 }

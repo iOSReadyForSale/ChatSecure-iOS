@@ -47,8 +47,6 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.2.0):
     - CocoaLumberjack/Default
-  - CPAProxy (1.1.0):
-    - CocoaAsyncSocket
   - GCDWebServer/CocoaLumberjack (3.3.2):
     - CocoaLumberjack (~> 2)
     - GCDWebServer/Core
@@ -91,7 +89,7 @@ PODS:
   - MWFeedParser/NSString+HTML (1.0.1)
   - Navajo (0.0.1)
   - OpenInChrome (0.0.1)
-  - OTRKit (1.1.1)
+  - OTRKit (1.1.2)
   - ParkedTextField (0.1.2)
   - ProxyKit/Client (1.0.2):
     - ProxyKit/common
@@ -308,7 +306,6 @@ DEPENDENCIES:
   - ChatSecure-Push-iOS (from `Submodules/ChatSecure-Push-iOS/ChatSecure-Push-iOS.podspec`)
   - CocoaAsyncSocket (~> 7.4)
   - CocoaLumberjack (~> 2.0)
-  - CPAProxy (from `Submodules/CPAProxy/CPAProxy.podspec`)
   - gtm-http-fetcher (from `Podspecs/gtm-http-fetcher.podspec`)
   - gtm-oauth2 (from `Podspecs/gtm-oauth2.podspec`)
   - HockeySDK-Source (~> 3.7)
@@ -344,8 +341,6 @@ DEPENDENCIES:
 EXTERNAL SOURCES:
   ChatSecure-Push-iOS:
     :path: Submodules/ChatSecure-Push-iOS/ChatSecure-Push-iOS.podspec
-  CPAProxy:
-    :path: Submodules/CPAProxy/CPAProxy.podspec
   gtm-http-fetcher:
     :podspec: Podspecs/gtm-http-fetcher.podspec
   gtm-oauth2:
@@ -382,7 +377,6 @@ SPEC CHECKSUMS:
   ChatSecure-Push-iOS: 80ce8a66f8a43bb99dc0c38609243a3f07edf8ff
   CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
-  CPAProxy: cfd27b25328d6517b1f8570c4f0045838353e888
   GCDWebServer: 2a375ec42839a41d7187d04e5b688d32fa5c4cd5
   gtm-http-fetcher: 4e7de79fc9e774b291eae66a240f17b3a5277ec7
   gtm-oauth2: b31c9d7c82f773f7b7094cbb7da8dc7b5968ce16
@@ -401,7 +395,7 @@ SPEC CHECKSUMS:
   MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
   Navajo: 5fb68239b4e3af4610f31925bae1ca8e6bab8eaa
   OpenInChrome: f1f3f9dec682216fe78a0d7fe0b5b263d6312c32
-  OTRKit: d3bc784277eb34d4b7844e75e7ea4334e56030d6
+  OTRKit: 03e81b5196986bbe65491846a346dfa0aebfee02
   ParkedTextField: 602a34c13acf59577ab1124ac8bc380a33f5fe3a
   ProxyKit: 2dac991bddade9b4b5c24228a91e1611213fb60d
   PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb

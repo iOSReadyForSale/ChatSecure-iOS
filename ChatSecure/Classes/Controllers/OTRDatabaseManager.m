@@ -14,7 +14,7 @@
 #import <SSKeychain/SSKeychain.h>
 #import "OTRConstants.h"
 #import "OTRXMPPAccount.h"
-#import "OTRXMPPTorAccount.h"
+//#import "OTRXMPPTorAccount.h"
 #import "OTRGoogleOAuthXMPPAccount.h"
 #import "OTRAccount.h"
 #import "OTRMessage.h"

@@ -148,7 +148,7 @@ NSString *const OTRXMPPTorImageName           = @"xmpp-tor-logo.png";
         account = [[OTRXMPPAccount alloc] initWithAccountType:accountType];
     }
     else if (accountType == OTRAccountTypeXMPPTor) {
-        account = [[OTRXMPPTorAccount alloc] initWithAccountType:accountType];
+//        account = [[OTRXMPPTorAccount alloc] initWithAccountType:accountType];
     }
     else if (accountType == OTRAccountTypeGoogleTalk) {
         account = [[OTRGoogleOAuthXMPPAccount alloc] initWithAccountType:accountType];

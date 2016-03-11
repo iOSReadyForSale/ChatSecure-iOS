@@ -23,7 +23,7 @@
     if (account.accountType == OTRAccountTypeGoogleTalk) {
         loginHandler = [[OTRGoolgeOAuthLoginHandler alloc] init];
     } else if (account.accountType == OTRAccountTypeXMPPTor) {
-        loginHandler = [[OTRXMPPTorLoginHandler alloc] init];
+//        loginHandler = [[OTRXMPPTorLoginHandler alloc] init];
     } else if (account.accountType == OTRAccountTypeJabber) {
         loginHandler = [[OTRXMPPLoginHandler alloc] init];
     }

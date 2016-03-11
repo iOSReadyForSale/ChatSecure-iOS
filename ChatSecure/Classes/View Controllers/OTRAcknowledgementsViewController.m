@@ -9,7 +9,7 @@
 #import "OTRAcknowledgementsViewController.h"
 #import "TTTAttributedLabel.h"
 @import OTRKit;
-#import "OTRTorManager.h"
+//#import "OTRTorManager.h"
 #import "PureLayout.h"
 
 @interface VTAcknowledgementsViewController()
@@ -82,9 +82,9 @@
     NSString *openSSLString = @"OpenSSL";
     NSString *libEventString =@"libevent";
     
-    NSString *libEventVersionString = [CPAProxyManager libeventVersion];
-    NSString *torVersionString = [CPAProxyManager torVersion];
-    NSString *openSSLVersionString = [CPAProxyManager opensslVersion];
+    NSString *libEventVersionString = @"";//[CPAProxyManager libeventVersion];
+    NSString *torVersionString = @"";//[CPAProxyManager torVersion];
+    NSString *openSSLVersionString = @"";// [CPAProxyManager opensslVersion];
     openSSLVersionString = [[openSSLVersionString stringByReplacingOccurrencesOfString:openSSLString withString:@""] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 
     

@@ -55,7 +55,7 @@ pod 'Reachability', '~> 3'
 # QR Codes
 pod 'QRCodeReaderViewController', '~> 3.5.0'
 pod 'ZXingObjC', '~> 3.0'
-
+#pod 'CPAProxy', :git => "https://github.com/ursachec/CPAProxy"
 
 # Local Podspecs
 pod 'gtm-http-fetcher', :podspec => 'Podspecs/gtm-http-fetcher.podspec'
@@ -69,7 +69,7 @@ pod 'JSQMessagesViewController', :git => 'https://github.com/ChatSecure/JSQMessa
 pod 'ChatSecure-Push-iOS', :path => 'Submodules/ChatSecure-Push-iOS/ChatSecure-Push-iOS.podspec'
 pod 'ProxyKit/Client', :path => 'Submodules/ProxyKit/ProxyKit.podspec'
 pod 'OTRKit', :path => 'Submodules/OTRKit/OTRKit.podspec'
-pod 'CPAProxy', :path => 'Submodules/CPAProxy/CPAProxy.podspec'
+#pod 'CPAProxy', :path => 'Submodules/CPAProxy/CPAProxy.podspec'
 pod 'XMPPFramework', :path => 'Submodules/XMPPFramework/XMPPFramework.podspec'
 pod 'IOCipher/GCDWebServer', :path => 'Submodules/IOCipher/IOCipher.podspec'
 pod 'ParkedTextField', :path => 'Submodules/ParkedTextField/ParkedTextField.podspec'
