@@ -196,6 +196,15 @@
     return viewController;
 }
 
+/**
+ *  Try load wechat view here, yzy
+ *
+ *  @return view controller
+ */
+- (UIViewController*)defaultConversationNavigationController2{
+    
+    return nil;
+}
 - (void)showConversationViewController
 {
     self.window.rootViewController = [self defaultConversationNavigationController];

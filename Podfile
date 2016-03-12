@@ -20,13 +20,13 @@ source 'https://github.com/CocoaPods/Specs.git'
 link_with "ChatSecureCore"
 
 pod 'AFNetworking', '~> 2.6'
-pod "Appirater", '~> 2.0'
+pod 'Appirater', '~> 2.0'
 pod 'OpenInChrome', '~> 0.0'
 pod 'MWFeedParser', '~> 1.0'
-pod "CocoaLumberjack", '~> 2.0'
-pod "HockeySDK-Source", '~> 3.7'
+pod 'CocoaLumberjack', '~> 2.0'
+pod 'HockeySDK-Source', '~> 3.7'
 pod 'MBProgressHUD', '~> 0.9'
-pod "SSKeychain", '~> 1.2'
+pod 'SSKeychain', '~> 1.2'
 # pod 'gtm-oauth2', '~> 0.1.0' # Trunk is outdated, using local podspec
 pod 'JTTargetActionBlock', '~> 1.0'
 pod 'YapDatabase/SQLCipher', '~> 2.8'
@@ -55,6 +55,7 @@ pod 'Reachability', '~> 3'
 # QR Codes
 pod 'QRCodeReaderViewController', '~> 3.5.0'
 pod 'ZXingObjC', '~> 3.0'
+pod 'ReactiveCocoa'
 #pod 'CPAProxy', :git => "https://github.com/ursachec/CPAProxy"
 
 # Local Podspecs
